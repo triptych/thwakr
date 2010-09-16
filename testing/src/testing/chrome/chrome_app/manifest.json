@@ -1,0 +1,19 @@
+{
+  "name": "Thwakr",
+  "description": "It's all in the timing! Track and play your favorite web games.",
+  "version": "0.1",
+  "icons": { "24": "24.png", "128": "128.png" },
+  "app": {
+    "urls": [
+      "*://www.thwakr.com/testing/chrome/website/"
+    ],
+    "launch": {
+      "web_url": "http://www.thwakr.com/testing/chrome/website/"
+    }
+  },
+  "permissions": [
+    "geolocation",
+    "unlimitedStorage",
+    "notifications"
+    ]
+}
