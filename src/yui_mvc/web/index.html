@@ -3,8 +3,16 @@
 <head>
     <!-- styles -->
     <link href="css/bootstrap-1.0.0.css" rel="stylesheet" type="text/css">
+    <link href="css/thwakr.css" rel="stylesheet" type="text/css">
+    
+    <!-- YUI 3.4.0 -->
+   <script src="lib/yui/build/yui/yui.js"></script>
+   <!-- <script src="http://yui.yahooapis.com/3.4.0/build/yui/yui-min.js"></script>-->
+    
+    <!-- thwakr js -->
+    <script src="js/thwakr.js"></script>
 </head>
-<body>
+<body class="yui3-skin-sam">
 <div class="topbar">
     <div class="container fixed">
         <h3><a class="logo">Thwakr</a></h3>
@@ -16,9 +24,25 @@
         </ul>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid" id="main">
     <div class="sidebar">
-      [sidebar stuff]
+    <!--
+        <ul class="tabs">
+            <li class="active"><a href="#">Games</a></li>
+            <li><a href="#">News</a></li>
+        </ul> -->
+        <div id="demo">
+    <ul>
+        <li><a href="#foo">foo</a></li>
+        <li><a href="#bar">bar</a></li>
+        <li><a href="#baz">baz</a></li>
+    </ul>
+    <div>
+        <div id="foo">foo content</div>
+        <div id="bar">bar content</div>
+        <div id="baz">baz content</div>
+    </div>
+</div>
     </div>
     <div class="content">
       <div class="hd">
@@ -26,6 +50,15 @@
         </div>
       </div>
       <div class="bd">
+        <section id="about">
+            <div class="page-header">
+                <h1> About Thwakr
+                    <small>Games, Links, and News</small>
+                </h1>
+                </div>
+        </section>
+        <section id="profile">
+        </profile>
       </div>
       <div class="ft">
       </div>
